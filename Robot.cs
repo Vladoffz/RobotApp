@@ -13,8 +13,16 @@ namespace RobotAppp228322
         Up,
         Down
     }
-    class Robot
+    public class Robot
     {
+        public int Id { get; set; }
+        public string Avatar { get; set; }
+        public string Name { get; set; }
+        public int Battery { get; set; }
+        public int LoadCapacity { get; set; }
+
+        public int DecodeProbability { get; set; }
+
         public bool state = false;
         public int X { get; set; }
         public int Y { get; set; }

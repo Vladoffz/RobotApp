@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CSharpSila\\source\\repos\\self-training\\RobotAppp228322\\RobotAppp228322.csproj",
+      "projectUniqueName": "C:\\Users\\CSharpSila\\Desktop\\vlad_robot\\RobotApp\\RobotAppp228322.csproj",
       "projectName": "RobotAppp228322",
-      "projectPath": "C:\\Users\\CSharpSila\\source\\repos\\self-training\\RobotAppp228322\\RobotAppp228322.csproj",
+      "projectPath": "C:\\Users\\CSharpSila\\Desktop\\vlad_robot\\RobotApp\\RobotAppp228322.csproj",
       "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CSharpSila\\source\\repos\\self-training\\RobotAppp228322\\obj\\",
+      "outputPath": "C:\\Users\\CSharpSila\\Desktop\\vlad_robot\\RobotApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
