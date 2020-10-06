@@ -1,0 +1,13 @@
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\bin\Debug\netcoreapp3.1\RobotAppp228322.exe
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\bin\Debug\netcoreapp3.1\RobotAppp228322.deps.json
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\bin\Debug\netcoreapp3.1\RobotAppp228322.runtimeconfig.json
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\bin\Debug\netcoreapp3.1\RobotAppp228322.runtimeconfig.dev.json
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\bin\Debug\netcoreapp3.1\RobotAppp228322.dll
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\bin\Debug\netcoreapp3.1\RobotAppp228322.pdb
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\obj\Debug\netcoreapp3.1\RobotAppp228322.csprojAssemblyReference.cache
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\obj\Debug\netcoreapp3.1\RobotAppp228322.AssemblyInfoInputs.cache
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\obj\Debug\netcoreapp3.1\RobotAppp228322.AssemblyInfo.cs
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\obj\Debug\netcoreapp3.1\RobotAppp228322.csproj.CoreCompileInputs.cache
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\obj\Debug\netcoreapp3.1\RobotAppp228322.dll
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\obj\Debug\netcoreapp3.1\RobotAppp228322.pdb
+C:\Users\CSharpSila\source\repos\self-training\RobotAppp228322\obj\Debug\netcoreapp3.1\RobotAppp228322.genruntimeconfig.cache
