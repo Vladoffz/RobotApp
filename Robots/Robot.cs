@@ -20,7 +20,6 @@ namespace RobotAppp228322
         public string Name { get; set; }
         public int Battery { get; set; }
         public int LoadCapacity { get; set; }
-
         public int DecodeProbability { get; set; }
 
         public bool state = false;
