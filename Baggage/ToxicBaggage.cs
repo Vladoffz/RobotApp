@@ -9,7 +9,7 @@ namespace RobotAppp228322
         public ToxicBaggage()
         {
             Cost = 10;
-            Weight = 5;
+            Weight = 40;
         }
     }
 }

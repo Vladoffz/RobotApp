@@ -31,6 +31,12 @@ namespace RobotAppp228322
             Bagages = new List<Bagage>();
             Bagages.Add(new ClassicBaggage());
             Bagages.Add(new DecodingBaggage());
+            Bagages.Add(new DecodingBaggage());
+            Bagages.Add(new DecodingBaggage());
+            Bagages.Add(new DecodingBaggage());
+            Bagages.Add(new DecodingBaggage());
+            Bagages.Add(new DecodingBaggage());
+            Bagages.Add(new DecodingBaggage());
             Bagages.Add(new ToxicBaggage());
             Bagages.Add(new WeightBaggage());
             GeneratingBaggages gb = new GeneratingBaggages();

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Text;
 
 namespace RobotAppp228322
@@ -21,14 +22,14 @@ namespace RobotAppp228322
         public int Battery { get; set; }
         public int LoadCapacity { get; set; }
         public int DecodeProbability { get; set; }
-
+        public List<Bagage> Bagages { get; set; }
         public bool state = false;
         public int X { get; set; }
         public int Y { get; set; }
 
         private Dictionary<RobotDirection, int> dictionary = new Dictionary<RobotDirection, int>();
 
-        private RobotDirection lastDirection = RobotDirection.None;
+        public RobotDirection lastDirection = RobotDirection.None;
         private int size;
 
         public Robot(int size)
@@ -38,6 +39,8 @@ namespace RobotAppp228322
             dictionary[RobotDirection.Up] = 0;
             dictionary[RobotDirection.Down] = 0;
             this.size = size;
+
+            Bagages = new List<Bagage>();
         }
         public void TurnOn()
         {
@@ -63,6 +66,9 @@ namespace RobotAppp228322
                 else if (direction == RobotDirection.Up) this.Y -= x;
                 else if (direction == RobotDirection.Right) this.X += x;
                 else if (direction == RobotDirection.Left) this.X -= x;
+
+                this.Battery -= x;
+                this.Battery -= this.Bagages.Sum(x => (int)(x.Weight / 10));
                 if (this.X > size || this.X < 0 || this.Y > size || this.Y < 0)
                 {
                     this.X = tempX;

@@ -5,7 +5,7 @@
         public WeightBaggage()
         {
             Cost = 5;
-            Weight = 8;
+            Weight = 60;
         }
     }
 }
