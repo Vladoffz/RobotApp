@@ -29,13 +29,15 @@ namespace RobotAppp228322
         private Dictionary<RobotDirection, int> dictionary = new Dictionary<RobotDirection, int>();
 
         private RobotDirection lastDirection = RobotDirection.None;
+        private int size;
 
-        public Robot()
+        public Robot(int size)
         {
             dictionary[RobotDirection.Right] = 0;
             dictionary[RobotDirection.Left] = 0;
             dictionary[RobotDirection.Up] = 0;
             dictionary[RobotDirection.Down] = 0;
+            this.size = size;
         }
         public void TurnOn()
         {
@@ -61,7 +63,7 @@ namespace RobotAppp228322
                 else if (direction == RobotDirection.Up) this.Y -= x;
                 else if (direction == RobotDirection.Right) this.X += x;
                 else if (direction == RobotDirection.Left) this.X -= x;
-                if (this.X > 100 || this.X < 0 || this.Y > 100 || this.Y < 0)
+                if (this.X > size || this.X < 0 || this.Y > size || this.Y < 0)
                 {
                     this.X = tempX;
                     this.Y = tempY;
