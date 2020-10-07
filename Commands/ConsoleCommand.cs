@@ -1,24 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RobotAppp228322
 {
     public class ConsoleCommand : ICommand
     {
-        public void General(object message)
+        public void General<T>(T message)
         {
             Console.WriteLine(message);
         }
 
-        public void Success(object message)
+        public void Success<T>(T message)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(message);
             Console.ResetColor();
         }
 
-        public void Error(object message)
+        public void Error<T>(T message)
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(message);

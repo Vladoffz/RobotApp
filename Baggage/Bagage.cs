@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace RobotAppp228322
+﻿namespace RobotAppp228322
 {
     public class Bagage
     {

@@ -2,9 +2,9 @@
 {
     public interface ICommand
     {
-        void General(object message);
-        void Success(object message);
-        void Error(object message);
+        void General<T>(T message);
+        void Success<T>(T message);
+        void Error<T>(T message);
         int InputToInt(string message);
     }
 }

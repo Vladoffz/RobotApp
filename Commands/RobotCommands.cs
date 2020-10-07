@@ -1,28 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace RobotAppp228322
 {
     class RobotCommands
     {
-        private Robot robot;
-        private ICommand command;
+        private readonly Robot robot;
+        private readonly ICommand command;
 
         public RobotCommands(Robot robot, ICommand command)
         {
             this.robot = robot;
             this.command = command;
         }
+
         public void TurnOn()
         {
-            this.robot.TurnOn();
+            robot.TurnOn();
             command.Success("robot is on");
         }
 
         public void TurnOff()
         {
-            this.robot.TurnOff();
+            robot.TurnOff();
             command.Success("robot is off");
         }
 
@@ -39,7 +38,7 @@ namespace RobotAppp228322
             {
                 command.Error(ex.Message);
             }
-            catch
+            catch (Exception)
             {
                 command.Error("wrong command");
             }
@@ -55,13 +54,12 @@ namespace RobotAppp228322
             try
             {
                 var direction = command.InputToInt("enter direction (1:left, 2:right, 3:up, 4:down)");
-                command.General(robot.GetStepsCount((RobotDirection) direction));
+                command.General(robot.GetStepsCount((RobotDirection)direction));
             }
-            catch
+            catch (Exception)
             {
                 command.Error("wrong command");
             }
         }
-
     }
 }
