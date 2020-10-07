@@ -2,7 +2,7 @@
 {
     public class Clever : Robot
     {
-        public Clever()
+        public Clever(int size) : base(size)
         {
             DecodeProbability = 100;
             Battery = 100;
