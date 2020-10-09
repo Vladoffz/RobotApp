@@ -6,11 +6,11 @@ namespace RobotAppp228322
 {
     public class Field
     {
-        public List<Bagage> Bagages { get; }
-        public Robot Robot { get; }
+        public List<IBagage> Bagages { get; }
+        public IRobot Robot { get; }
         public int Size { get; }
 
-        public Field(int size, Robot robot, List<Bagage> bagages)
+        public Field(int size, IRobot robot, List<IBagage> bagages)
         {
             this.Size = size;
             this.Robot = robot;

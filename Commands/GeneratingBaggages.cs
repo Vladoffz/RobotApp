@@ -7,7 +7,7 @@ namespace RobotAppp228322
 {
     public class GeneratingBaggages
     {
-        public void Generate(int size, List<Bagage> bagages)
+        public void Generate(int size, List<IBagage> bagages)
         {
             Random rnd = new Random();
             for(int i = 0; i< bagages.Count; i++)
