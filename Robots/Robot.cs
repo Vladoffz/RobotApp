@@ -14,7 +14,7 @@ namespace RobotAppp228322
         Up,
         Down
     }
-    public class Robot
+    public class Robot : IRobot
     {
         public int Id { get; set; }
         public string Avatar { get; set; }
@@ -22,14 +22,14 @@ namespace RobotAppp228322
         public int Battery { get; set; }
         public int LoadCapacity { get; set; }
         public int DecodeProbability { get; set; }
-        public List<Bagage> Bagages { get; set; }
+        public List<IBagage> Bagages { get; set; }
         public bool state = false;
         public int X { get; set; }
         public int Y { get; set; }
 
         private Dictionary<RobotDirection, int> dictionary = new Dictionary<RobotDirection, int>();
 
-        public RobotDirection lastDirection = RobotDirection.None;
+        public RobotDirection lastDirection { get; set; }= RobotDirection.None;
         private int size;
 
         public Robot(int size)
@@ -39,8 +39,8 @@ namespace RobotAppp228322
             dictionary[RobotDirection.Up] = 0;
             dictionary[RobotDirection.Down] = 0;
             this.size = size;
-
-            Bagages = new List<Bagage>();
+            this.Bagages = new List<IBagage>();
+            
         }
         public void TurnOn()
         {
@@ -69,6 +69,7 @@ namespace RobotAppp228322
 
                 this.Battery -= x;
                 this.Battery -= this.Bagages.Sum(x => (int)(x.Weight / 10));
+
                 if (this.X > size || this.X < 0 || this.Y > size || this.Y < 0)
                 {
                     this.X = tempX;

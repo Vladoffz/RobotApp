@@ -20,7 +20,10 @@ C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\bin\Debug\netcoreapp3.1\RobotApp
 C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.csprojAssemblyReference.cache
 C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.AssemblyInfoInputs.cache
 C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.AssemblyInfo.cs
-C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.csproj.CoreCompileInputs.cache
 C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.dll
 C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.pdb
 C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.genruntimeconfig.cache
+C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.csproj.CoreCompileInputs.cache
+C:\Users\CSharpSila\Desktop\vlad_robot\RobotApp\obj\Debug\netcoreapp3.1\RobotAppp228322.csproj.CopyComplete

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace RobotAppp228322
 {
-    public class Bagage
+    public class Bagage : IBagage
     {
         public int Cost { get; set; }
         public int Weight { get; set; }

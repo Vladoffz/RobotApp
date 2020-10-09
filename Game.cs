@@ -17,6 +17,9 @@ namespace RobotAppp228322
         public void Play()
         {
             field.Robot.TurnOn();
+            Console.WriteLine("enter your name: ");
+            var playerName = Console.ReadLine();
+            field.Robot.Name = playerName;
             while (true)
             {
                 if (field.Robot.Battery <= 0)
@@ -24,12 +27,12 @@ namespace RobotAppp228322
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     for (int i = 0; i < 7; i++)
                     {
-                        Console.WriteLine("Game over, your score is: " + field.Robot.Bagages.Sum(x => x.Cost));
+                        Console.WriteLine($"Game over, {field.Robot.Name} your score is: + {field.Robot.Bagages.Sum(x => x.Cost)}");
                         Thread.Sleep(500);
                         Console.Clear();
                         Thread.Sleep(100);
                     }
-                    Console.WriteLine("Game over, your score is: " + field.Robot.Bagages.Sum(x => x.Cost));
+                    Console.WriteLine($"Game over, {field.Robot.Name} your score is: + {field.Robot.Bagages.Sum(x => x.Cost)}");
                     Thread.Sleep(500);
                     Console.Write("Steps made: ");
 

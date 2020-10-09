@@ -5,10 +5,15 @@ namespace RobotAppp228322
 {
     public class GeneratingField
     {
-        private Robot Robot;
-        private List<Bagage> Bagages;
+        private IRobot Robot;
+        private List<IBagage> Bagages;
         private int size;
+        private GeneratingBaggages gb;
 
+        public GeneratingField(GeneratingBaggages gb)
+        {
+            this.gb = gb;
+        }
         public Field Generate(int size)
         {
             this.size = size;
@@ -28,7 +33,7 @@ namespace RobotAppp228322
                 Robot = new Clever(size);
             }
 
-            Bagages = new List<Bagage>();
+            Bagages = new List<IBagage>();
             Bagages.Add(new ClassicBaggage());
             Bagages.Add(new DecodingBaggage());
             Bagages.Add(new DecodingBaggage());
@@ -39,7 +44,7 @@ namespace RobotAppp228322
             Bagages.Add(new DecodingBaggage());
             Bagages.Add(new ToxicBaggage());
             Bagages.Add(new WeightBaggage());
-            GeneratingBaggages gb = new GeneratingBaggages();
+            
             gb.Generate(size, Bagages);
 
             return new Field(this.size, this.Robot, this.Bagages);

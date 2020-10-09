@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2tQNLN1oGIzXMKPd5El63Q3i86M9lOnYUPoT143CwBX5QvO54s+S1Bq1FHfMrqrJC2BHLfvlTVGpiwOq93iljQ==",
+  "dgSpecHash": "bpCXBTVnv5msEhW3WrlzoDrJpMuP56i25oZviyRVaEEtjM8ifS0cELVET453fq7w14cZ8l9K87JO/MfMxDjGZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\CSharpSila\\Desktop\\vlad_robot\\RobotApp\\RobotAppp228322.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }
