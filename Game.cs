@@ -32,7 +32,7 @@ namespace RobotAppp228322
                         Console.Clear();
                         Thread.Sleep(100);
                     }
-                    Console.WriteLine($"Game over, {field.Robot.Name} your score is: + {field.Robot.Bagages.Sum(x => x.Cost)}");
+                    Console.WriteLine($"Game over, {field.Robot.Name} your score is: {field.Robot.Bagages.Sum(x => x.Cost)}");
                     Thread.Sleep(500);
                     Console.Write("Steps made: ");
 
@@ -156,14 +156,13 @@ namespace RobotAppp228322
                     }
 
                 }
-                catch (Exception ex)
+                catch (RobotException ex)
                 {
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(ex.Message);
                     Thread.Sleep(2000);
                     Console.Clear();
-                    continue;
                 }
             }
         }

@@ -56,7 +56,7 @@ namespace RobotAppp228322
             {
                 if (this.lastDirection == direction)
                 {
-                    throw new ArgumentException("robot can't go to the same direction");
+                    throw new RobotException("robot can't go to the same direction");
                 }
 
                 var tempX = this.X;
@@ -74,14 +74,14 @@ namespace RobotAppp228322
                 {
                     this.X = tempX;
                     this.Y = tempY;
-                    throw new ArgumentException("robot is outside of a field");
+                    throw new RobotException("robot is outside of a field");
                 }
                 lastDirection = direction;
                 dictionary[direction]++;
             }
             else
             {
-                throw new ArgumentException("robot is off");
+                throw new RobotException("robot is off");
             }
         }
         public Point GetCurrentState()
