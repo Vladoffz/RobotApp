@@ -1,0 +1,11 @@
+hueta 
+hoooeta
+govno
+zhopa
+chlen
+mocha
+koncha
+pizda
+piska
+huy
+sperma
